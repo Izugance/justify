@@ -64,4 +64,4 @@ def justify_text(text, maxlen=30, return_list=False):
     justified_text = justified_text_stream(words,maxlen)
     if return_list:
         return list(justified_text)
-    return "".join(justified_text_stream(words, maxlen))
+    return "".join(justified_text)
