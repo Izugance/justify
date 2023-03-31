@@ -60,6 +60,7 @@ def justify_text(text, maxlen=30, return_list=False):
     if maxlen < len(words[0]):
         # Re-use the default.
         maxlen = 30
+        
     justified_text = justified_text_stream(words,maxlen)
     if return_list:
         return list(justified_text)
